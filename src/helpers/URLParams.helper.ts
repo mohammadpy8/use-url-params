@@ -1,4 +1,4 @@
-import type { SortDir, SortGroup } from "./types";
+import type { SortDir, SortGroup } from "../types";
 
 const SORT_BY_PATTERN = /^(.+)\[sort_by\]$/;
 
