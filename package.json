@@ -1,0 +1,53 @@
+{
+  "name": "use-url-params",
+  "version": "1.0.0",
+  "description": "Zero-dependency React hooks for managing URL search params — supports grouped sort params, pending state, and context-based sharing.",
+  "keywords": [
+    "react",
+    "hooks",
+    "url",
+    "search-params",
+    "query-params",
+    "sort",
+    "routing"
+  ],
+  "author": {
+    "name": "Mohammad",
+    "url": "https://github.com/mohammadpy8"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mohammadpy8/use-url-params#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadpy8/use-url-params.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mohammadpy8/use-url-params/issues"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  }
+}
