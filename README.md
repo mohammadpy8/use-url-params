@@ -1,10 +1,10 @@
-# use-url-params
+# use-url-params-react
 
 > Zero-dependency React hooks for managing URL search params with grouped sort support.
 
-[![npm version](https://img.shields.io/npm/v/use-url-params)](https://www.npmjs.com/package/use-url-params)
-[![license](https://img.shields.io/npm/l/use-url-params)](./LICENSE)
-[![peerDependencies](https://img.shields.io/npm/peer-dependency-version/use-url-params/react)](https://reactjs.org/)
+[![npm version](https://img.shields.io/npm/v/use-url-params-react)](https://www.npmjs.com/package/use-url-params-react)
+[![license](https://img.shields.io/npm/l/use-url-params-react)](./LICENSE)
+[![peerDependencies](https://img.shields.io/npm/peer-dependency-version/use-url-params-react/react)](https://reactjs.org/)
 
 ## Features
 
@@ -17,11 +17,11 @@
 ## Installation
 
 ```bash
-npm install use-url-params
+npm install use-url-params-react
 # or
-pnpm add use-url-params
+pnpm add use-url-params-react
 # or
-yarn add use-url-params
+yarn add use-url-params-react
 ```
 
 ## Quick Start
@@ -30,7 +30,7 @@ Wrap your app (or the relevant subtree) with `URLParamsProvider`, then use the h
 
 ```tsx
 // app/layout.tsx  (Next.js example)
-import { URLParamsProvider } from "use-url-params";
+import { URLParamsProvider } from "use-url-params-react";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -47,7 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 // components/UserTable.tsx
 "use client";
 
-import { useQueryParams, useSortParams } from "use-url-params";
+import { useQueryParams, useSortParams } from "use-url-params-react";
 
 export default function UserTable() {
   const { setParam, getParam, removeParam, removeAllParams, getAllParams } = useQueryParams();
@@ -88,7 +88,7 @@ export default function UserTable() {
 Provides shared pending state to all hooks in the tree. Must wrap any component that uses the hooks.
 
 ```tsx
-import { URLParamsProvider } from "use-url-params";
+import { URLParamsProvider } from "use-url-params-react";
 
 <URLParamsProvider>
   {children}
@@ -234,7 +234,7 @@ With provider:
 
 ## Contributing
 
-Issues and PRs are welcome at [github.com/mohammadpy8/use-url-params](https://github.com/mohammadpy8/use-url-params).
+Issues and PRs are welcome at [github.com/mohammadpy8/use-url-params-react](https://github.com/mohammadpy8/use-url-params-react).
 
 ## License
 

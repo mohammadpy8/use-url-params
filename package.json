@@ -1,5 +1,5 @@
 {
-  "name": "use-url-params",
+  "name": "use-url-params-react",
   "version": "1.0.1",
   "description": "Zero-dependency React hooks for managing URL search params — supports grouped sort params, pending state, and context-based sharing.",
   "keywords": [
