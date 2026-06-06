@@ -1,4 +1,4 @@
-import type { RefObject } from "react";
+import type { MutableRefObject } from "react";
 
 export type SortDir = "asc" | "desc";
 
@@ -28,5 +28,5 @@ export interface UseSortParams {
 }
 
 export interface TURLParamsContext {
-  pendingParams: RefObject<URLSearchParams | null>;
+  pendingParams: MutableRefObject<URLSearchParams | null>;
 }
