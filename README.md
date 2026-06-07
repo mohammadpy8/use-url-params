@@ -234,7 +234,7 @@ With provider:
 
 ## Contributing
 
-Issues and PRs are welcome at [github.com/mohammadpy8/use-url-params-react](https://github.com/mohammadpy8/use-url-params-react).
+Issues and PRs are welcome at [github.com/mohammadpy8/use-url-params](https://github.com/mohammadpy8/use-url-params).
 
 ## License
 
